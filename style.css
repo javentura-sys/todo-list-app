@@ -14,10 +14,10 @@ body {
   background: white;
   padding: 70px;
   border-radius: 24px;
-  box-shadow: 0 25px 60px rgba(140,90,150,0.35);
-  width: 1632px;
-  height: 1248px;
-  max-width: 98%;
+  box-shadow: 0 25px 60px rgba(140,90,150,0.33);
+  width: 1000px;
+  height: 1000px;
+  max-width: 100%;
   border: 1px solid #e0bcdc;
   overflow-y: auto;
 }
