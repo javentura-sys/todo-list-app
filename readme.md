@@ -28,11 +28,11 @@ Historias pendientes para un futuro Sprint 2: HU-04 (editar tarea) y HU-05 (filt
 
 ## Tablero SCRUM final
 
-*(Aquí insertas la captura del tablero con las historias en "Listo")*
+![Tablero SCRUM](capturas/tablero-scrum.png)
 
 ## Burndown Chart
 
-*(Aquí insertas la captura del burndown chart)*
+![Burndown Chart](capturas/burndown-chart.png)
 
 ## Sprint Review
 
