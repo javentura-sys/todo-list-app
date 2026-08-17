@@ -29,6 +29,7 @@ function render() {
 }
 
 // HU-02: Marcar como completada
+// Verificado: funciona correctamente en el navegador
 function toggle(id) {
   tasks = tasks.map(t => t.id === id ? { ...t, done: !t.done } : t);
   render();
