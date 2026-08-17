@@ -34,6 +34,14 @@ Historias pendientes para un futuro Sprint 2: HU-04 (editar tarea) y HU-05 (filt
 
 ![Burndown Chart](capturas/burndown-chart.png)
 
+### Interpretación del Burndown Chart
+
+El avance real estuvo muy por encima de la línea ideal: las 7 historias de puntos se 
+completaron el primer día del sprint (16 de agosto), en lugar de distribuirse a lo largo 
+de los 8 días planificados. Esto se debió a que el desarrollo se realizó en una sola sesión 
+de trabajo concentrada, en vez de repartir el esfuerzo día a día como simula un equipo real. 
+No hubo días sin avance porque no se dejó tiempo entre sesiones.
+
 ## Sprint Review
 
 - ¿Las historias HU-01, HU-02 y HU-03 funcionan correctamente en el navegador? Sí, se probaron 
