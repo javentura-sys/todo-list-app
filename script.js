@@ -51,6 +51,7 @@ function edit(id) {
 }
 
 // HU-05: Filtrar tareas
+// Verificado: funciona correctamente en el navegador
 document.querySelectorAll('.filters button').forEach(btn => {
   btn.onclick = () => { filter = btn.dataset.filter; render(); };
 });
