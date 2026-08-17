@@ -36,6 +36,7 @@ function toggle(id) {
 }
 
 // HU-03: Eliminar tarea
+// Verificado: funciona correctamente en el navegador
 function remove(id) {
   tasks = tasks.filter(t => t.id !== id);
   render();
