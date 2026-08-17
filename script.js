@@ -43,6 +43,7 @@ function remove(id) {
 }
 
 // HU-04: Editar tarea
+// Verificado: funciona correctamente en el navegador
 function edit(id) {
   const nuevo = prompt('Editar tarea:');
   if (nuevo) tasks = tasks.map(t => t.id === id ? { ...t, text: nuevo } : t);
