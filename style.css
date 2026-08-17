@@ -12,19 +12,21 @@ body {
 
 .app {
   background: white;
-  padding: 44px;
-  border-radius: 16px;
-  box-shadow: 0 20px 50px rgba(140,90,150,0.3);
-  width: 500px;
-  max-width: 100%;
+  padding: 70px;
+  border-radius: 24px;
+  box-shadow: 0 25px 60px rgba(140,90,150,0.35);
+  width: 1632px;
+  height: 1248px;
+  max-width: 98%;
   border: 1px solid #e0bcdc;
+  overflow-y: auto;
 }
 
 h1 {
   text-align: center;
   color: #1a1a1a;
   margin-bottom: 4px;
-  font-size: 34px;
+  font-size: 56px;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
@@ -32,24 +34,24 @@ h1 {
 h1::after {
   content: "";
   display: block;
-  width: 50px;
-  height: 2px;
+  width: 80px;
+  height: 4px;
   background: #a565b0;
-  margin: 14px auto 22px;
+  margin: 24px auto 36px;
 }
 
 .input-row {
   display: flex;
-  gap: 8px;
-  margin-bottom: 18px;
+  gap: 12px;
+  margin-bottom: 28px;
 }
 
 .input-row input {
   flex: 1;
-  padding: 13px 16px;
-  border: 1.5px solid #e6c9e6;
-  border-radius: 8px;
-  font-size: 16px;
+  padding: 20px 22px;
+  border: 2px solid #e6c9e6;
+  border-radius: 10px;
+  font-size: 22px;
   background: #fdf6fb;
   font-family: Georgia, serif;
   transition: border-color 0.2s;
@@ -64,11 +66,11 @@ h1::after {
   background: linear-gradient(135deg, #a565b0, #c1638a);
   color: white;
   border: none;
-  padding: 13px 22px;
-  border-radius: 8px;
+  padding: 20px 32px;
+  border-radius: 10px;
   cursor: pointer;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 21px;
   transition: transform 0.15s, opacity 0.15s;
 }
 
@@ -79,20 +81,20 @@ h1::after {
 
 .filters {
   display: flex;
-  gap: 8px;
-  margin-bottom: 22px;
+  gap: 12px;
+  margin-bottom: 34px;
 }
 
 .filters button {
   flex: 1;
-  padding: 9px;
-  border: 1.5px solid #ddb8dc;
+  padding: 16px;
+  border: 2px solid #ddb8dc;
   background: white;
   color: #8a4a8e;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 20px;
   transition: all 0.2s;
 }
 
@@ -108,14 +110,14 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px;
-  margin-bottom: 9px;
+  padding: 22px;
+  margin-bottom: 14px;
   background: #faf0f8;
-  border-radius: 8px;
-  border-left: 4px solid #c1638a;
+  border-radius: 10px;
+  border-left: 5px solid #c1638a;
   transition: all 0.2s;
   animation: fadeIn 0.3s;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 @keyframes fadeIn {
@@ -147,11 +149,11 @@ li button {
   border: none;
   background: none;
   cursor: pointer;
-  margin-left: 6px;
-  font-size: 18px;
+  margin-left: 10px;
+  font-size: 24px;
   color: #8a4a8e;
-  padding: 4px 8px;
-  border-radius: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
   transition: background 0.2s;
 }
 
